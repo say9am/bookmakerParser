@@ -1,0 +1,90 @@
+{
+  "command": "track",
+  "config": {
+    "url": "https://sbbet.me/sport",
+    "navigation_steps": {
+    "steps": [
+      {
+        "action": "click",
+        "coordinate": [
+          124,
+          266
+        ],
+        "path": null
+      },
+      {
+        "action": "scroll",
+        "coordinate": [
+          124,
+          266
+        ],
+        "value": [
+          0,
+          131
+        ]
+      },
+      {
+        "action": "click",
+        "coordinate": [
+          101,
+          247
+        ],
+        "path": null
+      },
+      {
+        "action": "click",
+        "coordinate": [
+          102,
+          328
+        ],
+        "path": null
+      },
+      {
+        "action": "click",
+        "coordinate": [
+          478,
+          318
+        ],
+        "path": null
+      },
+      {
+        "action": "click",
+        "coordinate": [
+          689,
+          379
+        ],
+        "path": null
+      }
+    ]
+  },
+    "navigation_steps_additional": {
+  "steps": [
+    {
+      "action": "click",
+      "coordinate": [
+        162,
+        22
+      ],
+      "path": null
+    },
+    {
+      "action": "click",
+      "coordinate": [
+        171,
+        90
+      ],
+      "path": null
+    }
+  ]
+},
+    "load_criteria": [
+      {
+        "path": "#root > div.App > div.sport:nth-of-type(2) > div.bordered-right:nth-of-type(1) > div.responsive > div.from-desktop.flex.sidebar-sports.d-flex.flex-column > div.sidebar.sidebar__bordered-right:nth-of-type(2) > div.sports-sidebar > div.sports-sidebar__sports-wrapper:nth-of-type(1) > div.loader-wrapper > div.accordion",
+        "count": 3
+      }
+    ],
+    "track_area": {
+      "path": "#frame-wrapper > div.all-odds-overlay__markets-wrapper:nth-of-type(1) > div.all-odds-overlay__odds-markets:nth-of-type(2)"
+    }
+  }
+}
